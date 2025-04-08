@@ -1,0 +1,40 @@
+.clwb
+.idea
+.vscode
+bazel-*
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+!/third_party/SDL/lib/*
+!/third_party/SDL_image/lib/*
+!/third_party/SDL_ttf/lib/*
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
